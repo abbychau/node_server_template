@@ -1,0 +1,25 @@
+{
+  "name": "m2np_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -r esm app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "fastify": "^2.9.0",
+    "fastify-cookie": "^3.1.0",
+    "fastify-oauth2": "^2.3.0",
+    "mysql2": "^1.7.0",
+    "redis": "^2.8.0",
+    "simple-get": "^3.1.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  }
+}
